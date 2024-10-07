@@ -1,0 +1,55 @@
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    color: #000;
+    border: #fff solid 1px; 
+    background-color: white;
+    border-radius: 10px;
+    margin: 25px auto;
+}
+@media (max-width: 768px) {
+    .hero {
+        width: 80vw;
+    }
+}
+
+.hero-photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 10px
+   
+}
+
+.hero-photo {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    max-width: 800px;
+    line-height: 1.5;
+}

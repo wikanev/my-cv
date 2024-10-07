@@ -1,7 +1,13 @@
 .App {
   text-align: center;
+  background-image: url('./pages/Assets/lpbg.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -1,0 +1,79 @@
+.skillbar-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    
+
+}
+
+.skillbar-percent {
+  font-weight: bold;
+}
+
+.skillbar-container {
+  
+  margin: 0.5rem;
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top; 
+    min-width: 80%;
+    max-width: 100%;
+    height: 580%;
+    
+   
+}
+
+.skillbar-bar {
+  margin-left: 1vh;
+}
+
+.skillbar-title {
+  padding: 0px;
+  width: 200px;
+  align-items: right;
+}
+
+.skill-stack {
+  
+  width: 100%;
+  margin: 2rem;
+  border: 0px outset black;
+  border-radius: 10px;
+  box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+  padding: 2px 4px 2px 4px;
+  background-color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 1024px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .skillbar-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 1vh;
+    }
+
+    .skillbar {
+      width : 100%;
+    }
+    .skillbar-title
+   {
+    width : 150px;
+   } 
+  }
+
+.skill-stack h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
