@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my-cv/static/css/main.6d3974cb.css",
+    "main.js": "/my-cv/static/js/main.3883a912.js",
+    "static/js/453.a5f36ace.chunk.js": "/my-cv/static/js/453.a5f36ace.chunk.js",
+    "static/media/3457921901-preview.mp4": "/my-cv/static/media/3457921901-preview.34806be6c2bc863bf079.mp4",
+    "static/media/QALogo.png": "/my-cv/static/media/QALogo.3bb8087cd26b91e08b68.png",
+    "static/media/lpbg.jpg": "/my-cv/static/media/lpbg.0155c6e25dd51f4a8c72.jpg",
+    "static/media/PMLogo.png": "/my-cv/static/media/PMLogo.30d09f33578aa43e2b33.png",
+    "static/media/HTMLCSS.png": "/my-cv/static/media/HTMLCSS.ac2e06c81492b3658191.png",
+    "static/media/ReactLogo.png": "/my-cv/static/media/ReactLogo.65ca18b4e9841f85a691.png",
+    "static/media/JSLogo.png": "/my-cv/static/media/JSLogo.166865dacb77d214f485.png",
+    "static/media/instagram.png": "/my-cv/static/media/instagram.e26c29ecd1c15782b99f.png",
+    "static/media/ITLogo.png": "/my-cv/static/media/ITLogo.4db091cb323b93761047.png",
+    "static/media/WPLogo.png": "/my-cv/static/media/WPLogo.cb79b8eebad4cd6a7fd4.png",
+    "static/media/whatsapp (1).png": "/my-cv/static/media/whatsapp (1).5e6530e1f9d026bebac3.png",
+    "index.html": "/my-cv/index.html",
+    "main.6d3974cb.css.map": "/my-cv/static/css/main.6d3974cb.css.map",
+    "main.3883a912.js.map": "/my-cv/static/js/main.3883a912.js.map",
+    "453.a5f36ace.chunk.js.map": "/my-cv/static/js/453.a5f36ace.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d3974cb.css",
+    "static/js/main.3883a912.js"
+  ]
+}
