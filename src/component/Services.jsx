@@ -12,20 +12,27 @@ export default function Services() {
   
 
   const slides = [
-    {image:"https://st2.depositphotos.com/3369547/8161/v/950/depositphotos_81611512-stock-illustration-web-developer-design.jpg",title:"Web Development",description:"This is a description",clickEvent: () => {}},
-    {image:QALogo,title:"Software Quality Assurance Engineer",description:"This is a seventh description",clickEvent: () => {}},
-    {image:JSLogo,title:"Java Script",description:"This is a second description",clickEvent: () => {}},
-    {image:HTMLCSS,title:"HTML5/CSS3",description:"This is a third description",clickEvent: () => {}},
-    {image:ReactLogo,title:"React JS",description:"This is a fourth description",clickEvent: () => {}},
-    {image:WPlogo,title:"Wordpress",description:"This is a fifth description",clickEvent: () => {}},
-    {image:ITLogo,title:"IT Solutions",description:"This is a sixth description",clickEvent: () => {}},
-    {image:PMLogo,title:"Software Projects Manager",description:"This is a seventh description",clickEvent: () => {}},
+    {image:"https://st2.depositphotos.com/3369547/8161/v/950/depositphotos_81611512-stock-illustration-web-developer-design.jpg",title:"Web Development",clickEvent: () => {}},
+    {image:QALogo,title:"Software QA Engineer",clickEvent: () => {}},
+    {image:JSLogo,title:"Java Script",clickEvent: () => {}},
+    {image:HTMLCSS,title:"HTML5/CSS3",clickEvent: () => {}},
+    {image:ReactLogo,title:"React JS",clickEvent: () => {}},
+    {image:WPlogo,title:"Wordpress",clickEvent: () => {}},
+    {image:ITLogo,title:"IT Solutions",clickEvent: () => {}},
+    {image:PMLogo,title:"Software Projects Manager",clickEvent: () => {}},
     
 ]
+
   return (
     <div className="services">
     <h1 className="services-title">Services</h1>
-    <ReactCardSlider slides={slides}/>
+    <ReactCardSlider 
+    slides={slides}
+    
+  
+    
+    />
+     
 
     </div>
   )

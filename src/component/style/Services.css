@@ -25,3 +25,13 @@
     background-position: center;
     
 }
+
+.slider-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; 
+}
+
+.slider-card-description {
+    display: none;
+}
