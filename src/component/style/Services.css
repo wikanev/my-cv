@@ -20,7 +20,7 @@
 }
 
 .slider-card-image {
-    background-size: contain !important;
+    background-size: 50% !important;
     background-repeat: no-repeat;
     background-position: center;
     

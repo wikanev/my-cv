@@ -1,4 +1,4 @@
-import ReactCardSlider from 'react-card-slider-component';
+import ReactCardSlider from '../component/ReactCardSlider.jsx';
 import './style/Services.css';
 import QALogo from '../pages/Assets/QALogo.png'
 import JSLogo from '../pages/Assets/JSLogo.png'
