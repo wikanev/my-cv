@@ -5,10 +5,10 @@ import TypingEffect from './TypingEffect';
 const Hero = () => {
     const textArray = [
         "Experienced Professional Software Quality Assurance and Frontend Developer",
-        "I Have a Strong IT Background and experience in software development",
-        "I Have Worked on various types of projects",
-        "I Have Good knowledge in programming and software development",
-        "I Am Enthusiastic about Technology, AI, Multimedia, and Games."
+        "Have a Strong IT Background and experience in software development",
+        "Have Worked on various types of projects",
+        "Have Good knowledge in programming and software development",
+        "Enthusiastic about Technology, AI, Multimedia, and Games."
       ];
     return (
         <div class name="hero-container"> 
