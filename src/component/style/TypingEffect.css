@@ -1,0 +1,15 @@
+.typewriter {
+    
+    font-size: 24px;
+    border-right: 2px solid;
+    overflow: hidden;
+    display: inline-block;
+    animation: blink-caret 0.75s step-end infinite;
+    height: 120px; /* Set this to the appropriate height for the text */
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+  }
+  

@@ -28,7 +28,7 @@ export default function Timeline() {
                 <h3 className="vertical-timeline-element-title">Senior Sound Quality Assurance</h3>
                 <h4 className="vertical-timeline-element-subtitle">PT Gameloft Indonesia</h4>
                 <p>
-                    Perform Sound and Audio Testing, Planning Daily Task,Supervising small team,and Training Junior.
+                    Perform Sound and Audio Testing, Planning Daily Task, Supervising small team, and Training Junior.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -42,7 +42,7 @@ export default function Timeline() {
                 <h3 className="vertical-timeline-element-title">IT Support and Helpdesk</h3>
                 <h4 className="vertical-timeline-element-subtitle">PT Angkasa Pura Support</h4>
                 <p>
-                    Helpdesk Support,Network , Troubleshooting , Build Hardware and Software Office
+                    Helpdesk Support, Network , Troubleshooting , Build Hardware and Software Office.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -56,7 +56,7 @@ export default function Timeline() {
                 <h3 className="vertical-timeline-element-title">Senior Software Quality Engineer</h3>
                 <h4 className="vertical-timeline-element-subtitle">PT Software Seni</h4>
                 <p>
-                    Manual Testing, Automation Testing, Test Planning, Test Documentation, Problem Solving, Debugging 
+                    Manual Testing, Automation Testing, Test Planning, Test Documentation, Problem Solving, Debugging.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

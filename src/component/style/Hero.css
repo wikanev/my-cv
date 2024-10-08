@@ -18,11 +18,17 @@
     background-color: white;
     border-radius: 10px;
     margin: 25px auto;
+    height: 700px;
 }
 @media (max-width: 768px) {
     .hero {
         width: 80vw;
     }
+}
+.typeEffect {
+    height: 100px;
+    width: 100px;
+    font-size: 3rem;
 }
 
 .hero-photo-container {
