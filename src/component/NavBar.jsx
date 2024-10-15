@@ -10,9 +10,13 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import { Link } from 'react-router-dom';
 
-const pages = ['Experience', 'Portofolio', 'About Me'];
-
+const pages = [
+  { name: 'Experience', link: '/experience' },
+  { name: 'Portofolio', link: '/portofolio' },
+  { name: 'About Me', link: '/About' },
+];
 
 function Navbar () {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -68,8 +72,8 @@ function Navbar () {
               sx={{ display: { xs: 'block', md: 'none' } }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography sx={{ textAlign: 'center' }}>{page}</Typography>
+                <MenuItem key={page} component={Link} to={page.link} onClick={handleCloseNavMenu}>
+                  <Typography sx={{ textAlign: 'center' }}>{page.name}</Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -79,10 +83,12 @@ function Navbar () {
             {pages.map((page) => (
               <Button
                 key={page}
+                component={Link}
+                to={page.link}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page}
+                {page.name}
               </Button>
             ))}
           </Box>
@@ -93,3 +99,4 @@ function Navbar () {
   );
 }
 export default Navbar;
+
