@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c2c5622.css",
-    "main.js": "/static/js/main.17718ecd.js",
+    "main.css": "/static/css/main.c186e165.css",
+    "main.js": "/static/js/main.e4d63a32.js",
     "static/js/453.a5f36ace.chunk.js": "/static/js/453.a5f36ace.chunk.js",
+    "static/media/bluesky.jpg": "/static/media/bluesky.9ea8e2d1315fb1ffa30b.jpg",
     "static/media/3457921901-preview.mp4": "/static/media/3457921901-preview.34806be6c2bc863bf079.mp4",
     "static/media/QALogo.png": "/static/media/QALogo.3bb8087cd26b91e08b68.png",
     "static/media/lpbg.jpg": "/static/media/lpbg.0155c6e25dd51f4a8c72.jpg",
@@ -15,12 +16,12 @@
     "static/media/WPLogo.png": "/static/media/WPLogo.cb79b8eebad4cd6a7fd4.png",
     "static/media/whatsapp (1).png": "/static/media/whatsapp (1).5e6530e1f9d026bebac3.png",
     "index.html": "/index.html",
-    "main.0c2c5622.css.map": "/static/css/main.0c2c5622.css.map",
-    "main.17718ecd.js.map": "/static/js/main.17718ecd.js.map",
+    "main.c186e165.css.map": "/static/css/main.c186e165.css.map",
+    "main.e4d63a32.js.map": "/static/js/main.e4d63a32.js.map",
     "453.a5f36ace.chunk.js.map": "/static/js/453.a5f36ace.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c2c5622.css",
-    "static/js/main.17718ecd.js"
+    "static/css/main.c186e165.css",
+    "static/js/main.e4d63a32.js"
   ]
 }
