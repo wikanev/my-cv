@@ -3,7 +3,7 @@ import './style/LandingPage.css';
 import { Navigate, useNavigate } from 'react-router-dom';
 import whatsappicon from './Assets/whatsapp (1).png';
 import instagramicon from './Assets/instagram.png';
-import Footer from '../component/Footer';
+
 
 
 
@@ -16,6 +16,7 @@ const LandingPage = () => {
 
   return (
     <div className="lp-container">
+    
       <div className="photo-container" >
         
           
@@ -38,7 +39,7 @@ const LandingPage = () => {
         View CV and Portfolio
       </button>
 
-      <p>&copy; 2023 Wikan Pinandhito. All rights reserved. This page was built with React.</p>
+      <p className="lp-footer">&copy; 2023 Wikan Pinandhito. All rights reserved. This page was built with React.</p>
       
       
 
